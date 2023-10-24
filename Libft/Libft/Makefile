@@ -6,7 +6,7 @@
 #    By: frgarci2 <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/26 15:53:48 by frgarci2          #+#    #+#              #
-#    Updated: 2023/10/20 13:48:01 by frgarci2         ###   ########.fr        #
+#    Updated: 2023/10/24 16:08:37 by frgarci2         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,10 @@ SRC_FILES = ft_atoi.c \
 		   	ft_putnbr_fd.c 
 					
 BONUS_FILES = ft_lstnew_bonus.c \
-			  ft_lstadd_front_bonus.c 
+			  ft_lstadd_front_bonus.c \
+			  ft_lstsize_bonus.c \
+			  ft_lstlast_bonus.c \
+			  ft_lstadd_back_bonus.c  
 
 OBJS = $(SRC_FILES:.c=.o)
 BONUS_OBJS = $(BONUS_FILES:.c=.o)
